@@ -21,7 +21,7 @@ require("reshape2")
 
 # Changing the working directory to the location where the UCI HAR Dataset was unzipped
 
-setwd("~/Downloads/UCI HAR Dataset")
+setwd("Desktop/UCI HAR Dataset")
 
 # Load: activity labels
 activity_labels <- read.table("./activity_labels.txt")[,2]
